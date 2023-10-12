@@ -1,0 +1,62 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    background-color: aqua;
+}
+#appetizer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+#entree{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+#dessert{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+button{
+    width: 65px;
+    background-color: #4e0769;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    box-shadow: 0 2px 4px darkslategray;
+    border-radius: 50%;
+}
+img{
+    height: 150px;
+    width: 250px;
+}
+
+div{
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+}
+
+#appetizerCalories{
+    font-size: large;
+    font-weight: bold;
+}
+
+#entreeCalories{
+    font-size: large;
+    font-weight: bold;
+}
+
+#dessertCalories{
+    font-size: large;
+    font-weight: bold;
+}
